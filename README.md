@@ -1,29 +1,19 @@
 # CUMPANO Abschiedsseite
 
-Statische Abschiedsseite für CUMPANO. Geeignet für GitHub Pages, Netlify, Cloudflare Pages oder jeden normalen Webserver.
+Statische Abschiedsseite für den dauerhaft geschlossenen CUMPANO Onlineshop.
 
-## Dateien
+## Enthalten
 
-- `index.html` – Seitenstruktur und Inhalt
-- `styles.css` – Gestaltung, Responsive Design, Animationen
-- `script.js` – sanfte Fade-in Animationen beim Scrollen
+- `index.html` – Startseite / Abschiedsbrief
+- `impressum.html` – Impressum
+- `datenschutz.html` – vereinfachte Datenschutzerklärung für die statische Seite
+- `cookies.html` – Cookie-Hinweis
+- `styles.css` – Design
+- `script.js` – dezente Fade-In Animationen
+- `assets/cumpano-logo.png` – Logo
 
 ## Deployment auf GitHub Pages
 
-1. Neues öffentliches GitHub Repository erstellen.
-2. Diese Dateien in das Repository hochladen.
-3. Unter `Settings > Pages` als Quelle `Deploy from a branch` wählen.
-4. Branch `main` und Ordner `/root` auswählen.
-5. Optional unter `Custom domain` die gewünschte Domain eintragen.
+Alle Dateien in das Repository hochladen, GitHub Pages auf `main` und `/(root)` stellen.
 
-## DNS Beispiel
-
-Für `www.domain.de`:
-
-```txt
-Typ: CNAME
-Name: www
-Ziel: <github-benutzername>.github.io
-```
-
-Für die Root-Domain zusätzlich die GitHub Pages A-Records setzen.
+Es werden keine externen Schriftarten, Analyse-Tools oder Tracking-Skripte eingebunden.

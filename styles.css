@@ -6,8 +6,8 @@
   --cream: #f2eee8;
   --ink: #23201d;
   --muted: #756e66;
-  --gold: #ad7a3d;
-  --gold-soft: #d9bc91;
+  --gold: #E0B152;
+  --gold-soft: #E0B152;
   --line: rgba(35, 32, 29, 0.13);
   --shadow: 0 24px 80px rgba(0, 0, 0, 0.16);
   --max: 1120px;
@@ -268,3 +268,31 @@ a { color: inherit; }
   html { scroll-behavior: auto; }
   .reveal { opacity: 1; transform: none; transition: none; }
 }
+
+
+/* Kundenanpassungen vom 14.07.2026 */
+.hero-kicker {
+  font-family: Calibri, "Segoe UI", Arial, sans-serif;
+  font-size: clamp(17px, 1.8vw, 25px);
+  letter-spacing: 0.24em;
+  color: var(--gold);
+}
+.hero h1 { color: var(--gold); }
+.closure-line {
+  display: inline;
+  color: var(--ink);
+  background: linear-gradient(transparent 58%, rgba(224, 177, 82, .42) 58%);
+  font-weight: 800;
+}
+.brand-quote {
+  margin: clamp(34px, 5vw, 52px) 0;
+  padding: 4px 0 4px clamp(22px, 4vw, 38px);
+  border-left: 3px solid var(--gold);
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(21px, 2vw, 27px);
+  font-style: italic;
+  font-weight: 700;
+  line-height: 1.55;
+}
+.signature-prefix { font-weight: 800; }

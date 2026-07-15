@@ -17,3 +17,7 @@ Statische Abschiedsseite für den dauerhaft geschlossenen CUMPANO Onlineshop.
 Alle Dateien in das Repository hochladen, GitHub Pages auf `main` und `/(root)` stellen.
 
 Es werden keine externen Schriftarten, Analyse-Tools oder Tracking-Skripte eingebunden.
+
+
+## Version 3
+Kundenkorrekturen vom 14.07.2026: neuer Abschiedsbrief, BYE BYE Banner, Markenfarbe #E0B152 und Kontaktadresse hello@cumpano.com.
